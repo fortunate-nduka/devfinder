@@ -11,7 +11,9 @@ const Form = () => {
           placeholder="Enter Github Username"
         />
       </div>
-      <button className="bg-button px-5 py-2 text-white rounded-md font-inter">Go</button>
+      <button className="bg-button px-5 py-2 text-white rounded-md font-inter mr-2">
+        Go
+      </button>
     </form>
   );
 };
