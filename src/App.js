@@ -4,7 +4,7 @@ import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="container mx-auto flex flex-col px-10 min-h-screen py-7">
+    <div className="container mx-auto flex flex-col px-3 min-h-screen py-7 max-w-full">
       <Header />
       <Form />
       <ContentBox />
