@@ -36,7 +36,7 @@ const ContentBox = () => {
           <h2 className="text-white font-bold text-base">200</h2>
         </div>
       </div>
-      <div className="space-y-5">
+      <div className="space-y-5 capitalize">
         <div className="flex item-center">
           <MdLocationOn className="text-base mr-3" />
           <span>San Francisco</span>
