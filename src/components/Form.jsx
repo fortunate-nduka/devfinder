@@ -1,4 +1,5 @@
 import {BsSearch} from "react-icons/bs";
+import rocket from '../assets/rocket.svg'
 
 const Form = () => {
   return (
@@ -11,8 +12,8 @@ const Form = () => {
           placeholder="Enter Github Username"
         />
       </div>
-      <button className="bg-button px-5 py-2 text-white rounded-md font-inter mr-2">
-        Go
+      <button className="bg-button basis-[30%] py-2 text-white rounded-md font-inter mr-2 flex items-center justify-center">
+        Go <img src={rocket} alt="" className="ml-2" />
       </button>
     </form>
   );
