@@ -1,5 +1,4 @@
 import {BsSearch} from "react-icons/bs";
-import rocket from '../assets/rocket.svg'
 
 const Form = () => {
   return (
